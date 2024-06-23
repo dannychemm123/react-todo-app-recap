@@ -1,0 +1,33 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+    width: 100%;
+   /* margin-top: 80px;  Space for the fixed navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+ 
+  
+
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.list {
+    align-items: center;
+}
