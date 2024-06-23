@@ -12,9 +12,9 @@ const TodoCard = (props) => {
        <button onClick={()=>{handleDeleteTodo(index)}}>
        <i className="fa-solid fa-trash-can"></i>
        </button>
-       <button>
+       {/*<button>
        <i class="fa-solid fa-square-check"></i>
-       </button>
+       </button>*/}
 
        </div>
     </div>
